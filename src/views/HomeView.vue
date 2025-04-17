@@ -70,7 +70,7 @@ const formattedSignupOpenDate = computed(() => {
       </section>
 
       <!-- Information Sections -->
-      <section class="my-8 p-6 bg-white rounded-lg shadow-lg">
+      <section class="my-8 p-6 bg-[#EAE8FF] rounded-lg shadow-lg">
         <h2 class="text-[#456c55] border-b-2 border-[#456c55] pb-2 mb-6 text-2xl font-bold">
           Om lägret
         </h2>
