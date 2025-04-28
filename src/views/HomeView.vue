@@ -3,7 +3,7 @@ import { ref, computed } from 'vue'
 
 // --- Constants for easy modification ---
 const signupOpenDateString = '2025-04-28T20:00:00' // YYYY-MM-DDTHH:MM:SS
-const signupLink = '/anmalan' // Placeholder link - Update this to the actual signup page URL
+const signupLink = 'https://forms.office.com/e/wNGD1RCYqr'
 // --- End Constants ---
 
 const signupOpenDate = new Date(signupOpenDateString)
@@ -54,8 +54,10 @@ const formattedSignupOpenDate = computed(() => {
           <p>Antalet platser är begränsat så skynda dig. Sista dag för anmälan är 21/5.</p>
           <a
             :href="signupLink"
-            class="inline-block py-3 px-6 rounded-md text-lg font-bold transition duration-300 ease-in-out hover:bg-red-700 hover:text-white mt-4 no-underline"
-            >Anmäl dig här</a
+            class="inline-block py-3 px-6 rounded-md text-lg font-bold transition duration-300 ease-in-out bg-[#7180ac] hover:bg-gray-700 hover:text-white mt-4 no-underline"
+          >
+            <img src="/public/images/anmälan.svg" class="block w-32 mx-auto mb-[-40px]" />
+            <span class="block">Anmäl dig här</span></a
           >
           <p class="mt-4 opacity-80"><small>Anmälan sker endast via hemsidan.</small></p>
         </div>
